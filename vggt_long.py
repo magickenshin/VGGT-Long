@@ -336,7 +336,7 @@ class VGGT_Long:
                 print("Estimated Rotation:\n", R_a)
                 print("Estimated Translation:", t_a)
 
-                print('chunk_a align')
+                print('chunk_b align')
                 point_map_loop = item[1]['world_points'][-chunk_b_range[1] + chunk_b_range[0]:]
                 conf_loop = item[1]['world_points_conf'][-chunk_b_range[1] + chunk_b_range[0]:]
                 chunk_b_rela_begin = chunk_b_range[0] - self.chunk_indices[chunk_idx_b][0]
